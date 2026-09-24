@@ -5,6 +5,10 @@
   delivery 2026-09-24. Screenshot: `hardware-order.png`.
 - **Raspberry Pi:** not yet ordered. Plan: Raspberry Pi 4 starter kit
   (~$140), to be ordered 2026-09-25.
+- **microSD card:** not yet ordered. 32GB, A1/A2 (SanDisk or Samsung), to
+  be ordered 2026-09-25 with the Pi kit.
+- **Resistor kit:** not yet ordered. Must include 1kΩ and 2kΩ, to be
+  ordered 2026-09-25 with the Pi kit.
 
 ## Parts
 | Part | Qty | Role in the design |
@@ -12,6 +16,8 @@
 | INMP441 I2S MEMS microphone | 3 | **Sensor A:** horn detection, the early cue. Spares for fault injection. |
 | HC-SR04 ultrasonic sensor | 5 | **Sensor B:** confirms the train is there and times arrival and clear. |
 | Raspberry Pi 4 starter kit | 1 | Host board. **Pending**, see above. |
+| 32GB microSD card (A1/A2, SanDisk or Samsung) | 1 | OS and event-log storage; not included in the Pi kit. **Pending**, see above. |
+| Resistor kit (incl. 1kΩ and 2kΩ) | 1 | HC-SR04 echo voltage divider. **Pending**, see above. |
 
 ## Wiring notes
 - **Always wire with the Pi powered off** (spec Section 17, Appendix A).
